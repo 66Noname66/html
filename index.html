@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <h1>Damir Personal Webpage</h1>
+    <h2>Student of Astana IT University</h2>
+
+    <nav class="site-nav">
+        <a href="#about-me">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#websites">Websites</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about-me" class="profile-card">
+        <h2>About Me</h2>
+
+        <img src="images/me.jpg"
+             alt="Personal photo of Damir"
+             class="profile-image">
+
+        <p>
+            Hello! My name is Damir. I am a student at Astana IT University.
+            I am interested in Basketball and i go to the gym.
+        </p>
+
+        <p>
+            I enjoy, playing basketball, cooking,
+            playing computer games, and spending time with my friends.
+        </p>
+
+        <button type="button">Click Me</button>
+    </section>
+
+    <section id="hobbies" class="content-section">
+        <h2>My Hobbies</h2>
+
+        <h3>My activities</h3>
+
+        <ol>
+            <li>Basketball</li>
+            <li>Cooking</li>
+            <li>Playing computer games</li>
+            <li>Playing chess</li>
+        </ol>
+    </section>
+
+    <section id="websites" class="content-section">
+        <h2>Favorite Websites</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    YouTube
+                </a>
+            </li>
+
+            <li>
+                <a href="https://mangalib.me/ru?section=home-updates" target="_blank">
+                    mangalib
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.w3schools.com" target="_blank">
+                    W3Schools
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="schedule" class="content-section">
+        <h2>My Class Schedule</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Software Design Patterns</td>
+                    <td>Monday</td>
+                    <td>18:00 - 18:50</td>
+                </tr>
+
+                <tr>
+                    <td>Algorithms,Kazakh,Operating Systems</td>
+                    <td>Tuesday</td>
+                    <td>13:05 - 19:50</td>
+                </tr>
+
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Wednesday</td>
+                    <td>14:00 - 15:50</td>
+                </tr>
+
+                <tr>
+                    <td>Algorithms,Software</td>
+                    <td>Thursday</td>
+                    <td>14:00 - 19:50</td>
+                </tr>
+                
+                <tr>
+                    <td>Web T,Software</td>
+                    <td>Friday</td>
+                    <td>14:00 - 17:50</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="content-section mood-section">
+        <h2>My Mood</h2>
+
+        <p>
+            Today I feel motivated .
+            I am also excited about what will wait me today.
+        </p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Form</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="favorite-color">Favorite Color:</label>
+                <input type="color" id="favorite-color" name="favorite-color">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Damir. My First Webpage.</p>
+</footer>
+
+</body>
+</html>
